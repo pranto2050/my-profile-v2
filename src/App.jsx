@@ -5,11 +5,11 @@ import MainBody from "./Component/main_body"; // Renamed to start with uppercase
 
 export default function LeftPart() {
     return (
-        <div className="bg-[#212428] h-[100vh] text-[#C4CFDE] flex flex-row"> 
-            <div className="first_part w-[20%]">
+        <div className="flex flex-col"> 
+            <div className="first_part ">
                 <SideBar />
             </div>
-            <div className="second_part w-[80%]">
+            <div className="second_part ">
                 <MainBody />
             </div>
         </div>
