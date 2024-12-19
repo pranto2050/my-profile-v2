@@ -1,4 +1,3 @@
-
 // import React from 'react'
 function left_part() {
   return (
@@ -26,5 +25,4 @@ function left_part() {
     </div>
   )
 }
-
 export default left_part;
