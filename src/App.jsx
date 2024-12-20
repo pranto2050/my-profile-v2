@@ -1,8 +1,6 @@
 
-
 import SideBar from "./Component/side_bar";
 import MainBody from "./Component/main_body"; // Renamed to start with uppercase
-
 export default function LeftPart() {
     return (
         <div className="flex flex-col"> 
